@@ -34,6 +34,7 @@ class School
     @roster.collect do |key,value|
       value.sort
       binding.pry
+    end
      end 
   end 
 
