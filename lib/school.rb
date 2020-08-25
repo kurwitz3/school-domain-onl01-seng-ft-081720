@@ -32,7 +32,7 @@ class School
    end 
    def sort
     @roster.collect do |key,value|
-      value.sort
+      value.sort!
     end
     @roster 
      end 
