@@ -31,8 +31,8 @@ class School
      end 
    end 
    def sort
-    
-     
+    @roster.sort_by{|k,v| v}
+     binding.pry 
      end 
   end 
 
