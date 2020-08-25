@@ -31,7 +31,8 @@ class School
      end 
    end 
    def sort
-     @roster.sort.to_h
+     @roster.values.sort!{|k,v| v<=>k}
+     
      end 
   end 
 
