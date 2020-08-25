@@ -33,8 +33,8 @@ class School
    def sort
     @roster.collect do |key,value|
       value.sort
-      binding.pry
     end
+    @roster 
      end 
   end 
 
